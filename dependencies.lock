@@ -1,0 +1,24 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: /home/hetvi.shah/Industrial_Live_Monitoring_System/components/espressif__esp_lcd_touch
+      type: local
+    version: 1.1.1
+  idf:
+    source:
+      type: idf
+    version: 5.5.4
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: /home/hetvi.shah/Industrial_Live_Monitoring_System/components/lvgl__lvgl
+      type: local
+    version: 8.3.11
+direct_dependencies:
+- espressif/esp_lcd_touch
+- idf
+- lvgl/lvgl
+manifest_hash: cb7d7678ed2f7cdd04406feec90a0c2a78dc2a9bf883ee6f147942602c3c369b
+target: esp32s3
+version: 2.0.0
